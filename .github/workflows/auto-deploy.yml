@@ -1,4 +1,4 @@
-name: Auto deploy
+name: Staging deploy
 
 on:
   push:

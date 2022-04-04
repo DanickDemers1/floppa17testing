@@ -1,4 +1,4 @@
-name: Manual production
+name: Manual production deploy
 
 on:
   workflow_dispatch:
