@@ -1,0 +1,5 @@
+deploy:
+  staging:
+    url: https://staging-floppa17.herokuapp.com/
+  production:
+    url: https://production-floppa17.herokuapp.com/
