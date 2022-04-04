@@ -56,7 +56,7 @@ jobs:
         run: mvn clean compile test verify checkstyle:checkstyle
 
   prod-deploy:
-    needs: prod_testing
+    needs: prod-testing
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
