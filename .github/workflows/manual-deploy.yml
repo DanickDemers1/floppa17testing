@@ -8,15 +8,15 @@ on:
       commit:
         description: 'commit'
         default: 'feat:'
-        required: true
+        required: false
       branch:
         description: 'branch'
         default: 'branch'
-        required: true
+        required: false
       tags:
         description: 'tag'
         default: 'remise'
-        required: true
+        required: false
 
 jobs:
   log-the-inputs:
