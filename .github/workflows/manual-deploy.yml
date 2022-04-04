@@ -7,15 +7,12 @@ on:
     inputs:
       commit:
         description: 'commit'
-        default: 'feat:'
         required: false
       branch:
         description: 'branch'
-        default: 'branch'
         required: false
       tags:
         description: 'tag'
-        default: 'remise'
         required: false
 
 jobs:
